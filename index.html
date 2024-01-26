@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch using JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad&family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <p class="head-text">a basic stopwatch software made with JavaScript.</p>
+    </header>
+    <div class="stopwatch">
+      <h1 id="display-time-js">00:00:00</h1>
+      <div class="buttons">
+        <img
+          src="./assets/square-solid.svg"
+          alt="stop-img"
+          width="23px"
+          id="stop-time-js"
+        />
+        <img
+          src="./assets/play-button.png"
+          alt="play-button-img"
+          width="55px"
+          class="dynamic-img"
+          id="play-time-js"
+        />
+        <img
+          src="./assets/arrow-rotate-left-solid.svg"
+          alt="restart-time-img"
+          width="30px"
+          id="restart-time-js"
+        />
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

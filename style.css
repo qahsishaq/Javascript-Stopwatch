@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, rgb(34, 34, 234), #d7390a);
+  width: 100vw;
+  height: 100vh;
+}
+
+.head-text {
+  display: block;
+  color: rgb(64, 92, 6);
+  border: dotted greenyellow 2px;
+  background-color: aquamarine;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-shadow: 3px 4px 5px grey;
+  width: 35%;
+  margin: 20px auto;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+}
+.stopwatch {
+  width: 85%;
+  max-width: 550px;
+  height: 100px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("./assets/waterfall-background-for-stopwatch.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+  margin: 120px auto 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.stopwatch h1 {
+  font-weight: 500;
+  font-family: "Afacad", sans-serif;
+  font-family: "Courier Prime", monospace;
+}
+.buttons {
+  width: 40%;
+  height: 80px;
+  background-color: transparent;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons img {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+/* MEDIA QUERY (RESPONSIVENESS) FOR TABLETS AND SMARTPHONES */
+
+@media (max-width: 630px) {
+  .head-text {
+    display: none;
+  }
+  .buttons {
+    margin: auto;
+    width: fit-content;
+  }
+  .stopwatch {
+    width: 100vw;
+    clip-path: circle(50% at 50% 50%);
+  }
+}
