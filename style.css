@@ -74,5 +74,6 @@ body {
   .stopwatch {
     width: 100vw;
     clip-path: circle(50% at 50% 50%);
+    margin-top: 50%;
   }
 }
