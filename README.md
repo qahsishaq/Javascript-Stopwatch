@@ -1,0 +1,1 @@
+This is a simple stopwatch (HTML, CSS and JAVASCRIPT) that can be implemented in complex projects. It also builds your Javascript concepts knowledge, owing to its simplicity. I had fun while working on it.
